@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\Users\welcome\OneDrive\Desktop\Practice\mvninterviewpractice\.metadata\.plugins\org.eclipse.jdt.core
