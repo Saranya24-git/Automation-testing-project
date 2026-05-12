@@ -142,6 +142,16 @@ public class LoginTest
 		Assert.assertEquals("You have been successfully subscribed!", login.verifySubscribeMessage());
 	}
 		
+	@Test
+	public void TC14_PlaceOrderRegisterWhileCheckout()
+	{
+		driver.manage().deleteAllCookies();
+		LoginPage login = new LoginPage(driver);
+		String homeCheck = login.isHomePageVisible();
+		Assert.assertEquals(homeCheck,"Home");
+		login.scrollToFooter();
+	}
+	
 	@AfterClass
 	public void TearDown()
 	{
